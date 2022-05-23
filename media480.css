@@ -1,0 +1,172 @@
+@media (max-width: 480px) {
+  /* section-one */
+  .section-one {
+    height: 400px;
+  }
+  /* header */
+  .logo {
+    width: 150px;
+    height: 62px;
+    margin: 6px 0px;
+  }
+  .toggle {
+    left: 18px;
+    z-index: 1000;
+  }
+  .title_content {
+    padding-bottom: 34px;
+    width: 90%;
+  }
+  .menu {
+    width: auto;
+    height: auto;
+    background: #ffffff00;
+    position: absolute;
+    padding: 70px 16px 0px 16px;
+    display: block;
+    top: 0px;
+    left: -2000px;
+    transition: 0.6s ease;
+  }
+  .menu.active_burger_menu {
+    left: 0px;
+    transition: 0.6s ease;
+    width: 50%;
+    background-color: black;
+    height: 1000px;
+  }
+  .category {
+    justify-content: space-between;
+    width: auto;
+    margin: 0px 0px 20px 0px;
+  }
+  .category button {
+    font-size: 18px;
+    margin: 0px;
+  }
+  .items-for-men a,
+  .items-for-women a {
+    font-size: 14px;
+    margin: 20px 0px;
+    font-weight: 400;
+  }
+  .for-men {
+    margin-right: 14px;
+  }
+  .nav a:not(:last-child) {
+    margin-right: 20px;
+  }
+  .nav a {
+    font-size: 16px;
+  }
+  /* section-one */
+  .title_top h2 {
+    font-size: 26px;
+  }
+  .title_top {
+    width: 100%;
+  }
+  .description {
+    font-size: 16px;
+    margin-top: 6px;
+  }
+  .title .btn {
+    font-size: 12px;
+    padding: 12px 26px;
+  }
+  .swiper-button-next {
+    right: 6px !important;
+    height: 8%;
+    top: 52% !important;
+  }
+  .swiper-button-prev {
+    left: 6px !important;
+    height: 8%;
+    top: 52% !important;
+  }
+  /* footer */
+  .footer {
+    height: auto;
+    padding: 30px 14px 20px 14px;
+  }
+  .footer_content {
+    flex-direction: column;
+  }
+  .description_footer a {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .footer_content div h1 {
+    font-size: 32px;
+  }
+  .swiper-slide img {
+    width: 180%;
+    height: 140%;
+  }
+  .t1 {
+    margin-bottom: 60px;
+    border-right: 1px solid black;
+  }
+  .footer_content .t1 {
+    height: 100%;
+    width: 80%;
+  }
+  .title {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  /* section-one */
+  .section-one {
+    height: 460px;
+  }
+  .category button {
+    font-size: 20px;
+  }
+  .items-for-men a,
+  .items-for-women a {
+    font-size: 18px;
+  }
+  .menu.active_burger_menu {
+    left: 0px;
+    transition: 0.6s ease;
+    width: 60%;
+  }
+  .swiper-slide img {
+    width: 200%;
+    height: 140%;
+  }
+}
+@media (max-width: 425px) {
+  .category button {
+    font-size: 18px;
+  }
+  .items-for-men a,
+  .items-for-women a {
+    font-size: 16px;
+  }
+  .footer_content div h1 {
+    font-size: 24px;
+  }
+  .description_footer a {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .title_top h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 320px) {
+  .menu.active_burger_menu {
+    width: 80%;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+  .description_footer a {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+}

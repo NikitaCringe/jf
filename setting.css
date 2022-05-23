@@ -1,0 +1,42 @@
+html {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    width: 980px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}

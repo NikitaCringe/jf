@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+  /* footer */
+  .footer_content div h1 {
+    font-size: 16px;
+  }
+  .description_footer a {
+    font-size: 12px;
+  }
+  .footer {
+    height: 402px;
+    padding: 84px 50px 50px 50px;
+  }
+  /* header */
+  .container {
+    flex-direction: column;
+  }
+  .logo {
+    width: 224px;
+    height: 74px;
+    margin-bottom: 14px;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+  .category button {
+    font-size: 16px;
+  }
+  .items-for-men a,
+  .items-for-women a {
+    font-size: 12px;
+  }
+  .for-men {
+    margin-right: 20px;
+  }
+  /* section_one */
+  .section-one {
+    height: 680px;
+  }
+  .title_top h2 {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .title .btn {
+    font-size: 16px;
+  }
+  .title_bottom {
+    margin: 20px 0px 0px auto;
+  }
+}
